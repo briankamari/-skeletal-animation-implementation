@@ -127,7 +127,7 @@ bool d3d_manager::buildfx() {
     shader= shader+" return outVS; ";
     shader= shader+"} ";
     shader= shader+"float4 PixelShader_blend(float s : TEXCOORD0, float2 tex : TEXCOORD1) : COLOR { ";
-    shader= shader+" return float4( (s+0.1f)*float3(0.5f,0.5f,0.5f), 1.0f); ";
+    shader= shader+" return float4( s*float3(0.5f,0.5f,0.5f), 1.0f); ";
     shader= shader+"} ";
     shader= shader+"technique Tech ";
     shader= shader+"{ ";
