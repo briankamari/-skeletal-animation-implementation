@@ -9,6 +9,7 @@
 
  skeletal animation app
 ========================
+*make sure grayman._mesh is in the same folder as skeletal_animation.exe
 *to switch animations press n key
 
  collada_loader
